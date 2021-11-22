@@ -14,7 +14,7 @@ mongoose.connect("mongodb+srv://chethan:skaUWBAEi6ni14Lb@cluster0.9dogs.mongodb.
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
-app.use("/images",express.static(path.join("./images")));
+app.use("images",express.static(path.join("images")));
 // app.use((req,res,next)=>{
 //     res.setHeader("Access-Control-Allow-Origin","*");
 //     res.setHeader("Acess-Control-Allow-Headers",
