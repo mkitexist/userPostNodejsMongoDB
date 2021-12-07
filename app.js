@@ -6,7 +6,7 @@ const cors=require("cors");
 const postsRoutes=require("./routes/posts");
 const usersRoutes=require("./routes/user");
 const path=require("path");
-mongoose.connect("mongodb+srv://chethan:skaUWBAEi6ni14Lb@cluster0.9dogs.mongodb.net/AngularNodeMongodb?retryWrites=true&w=majority").then(()=>{
+mongoose.connect("mongodb+srv://chethan:skaUWBAEi6nidfffdfd14Lb@cluster0.9dogs.mongodb.net/AngularNodeMongodb?retryWrites=true&w=majority").then(()=>{
     console.log("connected to databse");
 }).catch(()=>{
     console.log("eroor occured while connected");
